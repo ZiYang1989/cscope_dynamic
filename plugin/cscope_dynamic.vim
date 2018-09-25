@@ -99,9 +99,9 @@ function! s:runShellCommand(cmd)
     " breaks the tag stack for some reason.
     "
     if has('perl')
-        silent execute "perl system('" . a:cmd . "')" | redraw!
+        silent execute "perl system('" . a:cmd . "')"
     else 
-        silent execute "!" . a:cmd | redraw!
+        silent execute "!" . a:cmd
     endif
 endfunction
 
