@@ -348,6 +348,7 @@ endfunction
 " Section: Maps {{{1
 "
 noremap <unique> <Plug>CscopeDBInit :call <SID>initForce()<CR>
+noremap <unique> <Plug>CscopeDBload :call <SID>init()<CR>
 
 " Autoinit: {{{1
 "
